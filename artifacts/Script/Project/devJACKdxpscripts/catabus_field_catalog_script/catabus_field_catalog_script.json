@@ -1,0 +1,20 @@
+{
+	"id": "47ddfce1-00ea-42e9-8648-fc4267e2ba3e",
+	"createdAt": "2025-12-11T09:23:29.038Z",
+	"createdBy": "jack",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "catabus_field_catalog_script",
+	"ver": "25.12.11.1142",
+	"description": "Script for Field Catalog in dev-JACK-bus-connector",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "aeb205bf-dadf-43e3-b3c5-eee46f83265a",
+	"package": "5b82a436-354f-4091-bade-864ef653133f"
+}

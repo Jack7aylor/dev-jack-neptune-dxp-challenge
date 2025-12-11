@@ -1,0 +1,9 @@
+{
+	"id": "aeb205bf-dadf-43e3-b3c5-eee46f83265a",
+	"createdAt": "2025-12-11T08:20:18.999Z",
+	"createdBy": "jack",
+	"name": "devJACKdxpscripts",
+	"description": "Server Scripts for fetching CATAbus GTFS data and exposing it as a Neptune Connector",
+	"ver": "25.12.11.1142",
+	"package": "5b82a436-354f-4091-bade-864ef653133f"
+}

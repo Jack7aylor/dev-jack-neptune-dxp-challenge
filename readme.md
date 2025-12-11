@@ -1,0 +1,2 @@
+A set of applications to demonstrate modern low-code development using Neptune DXP - Open Edition.
+This project showcases how external APIs can be integrated and transformed into clean, mobile-ready user experiences.

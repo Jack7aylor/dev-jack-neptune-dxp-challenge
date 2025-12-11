@@ -1,0 +1,20 @@
+{
+	"id": "92299039-beb7-4316-b534-0d0cc4e5b66f",
+	"createdAt": "2025-12-11T08:23:52.974Z",
+	"createdBy": "jack",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "catabus_get_stop_departures_server_script",
+	"ver": "25.12.11.1142",
+	"description": "Retrieves real-time CATAbus departures for a specific stop and returns simplified arrival data.",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "aeb205bf-dadf-43e3-b3c5-eee46f83265a",
+	"package": "5b82a436-354f-4091-bade-864ef653133f"
+}

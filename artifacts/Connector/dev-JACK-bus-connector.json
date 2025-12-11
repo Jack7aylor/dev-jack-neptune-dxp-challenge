@@ -1,0 +1,22 @@
+{
+	"id": "c763f98b-ca01-4864-8d3e-ea6fadef77df",
+	"createdAt": "2025-12-11T09:03:52.781Z",
+	"createdBy": "jack",
+	"settings": {
+		"scriptSel": "47ddfce1-00ea-42e9-8648-fc4267e2ba3e",
+		"scriptRun": "92299039-beb7-4316-b534-0d0cc4e5b66f",
+		"previewable": true,
+		"hasDocumentation": false,
+		"overriddenFieldCatalog": false
+	},
+	"documentation": {
+		"content": ""
+	},
+	"name": "dev-JACK-bus-connector",
+	"description": "TBD",
+	"group": null,
+	"type": "S",
+	"ver": "25.12.11.1121",
+	"disabled": false,
+	"package": "5b82a436-354f-4091-bade-864ef653133f"
+}

@@ -1,0 +1,135 @@
+{
+	"id": "5b82a436-354f-4091-bade-864ef653133f",
+	"createdAt": "2025-12-11T06:26:25.804Z",
+	"createdBy": "jack",
+	"git": {
+		"remote": "https://github.com/Jack7aylor/dev-jack-neptune-dxp-challenge",
+		"branch": "main"
+	},
+	"name": "dev-jack-neptune-dxp-challenge",
+	"description": "A set of applications for Jack to showcase API integration and UI design in Neptune DXP",
+	"ver": "25.12.11.1139",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": true,
+	"roles": [],
+	"apps": [],
+	"api": [
+		{
+			"id": "c3bcc7ea-62a1-4a0a-b8e9-da6c168decd3",
+			"name": "dev-JACK-bus-API",
+			"description": "TBD",
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [
+		{
+			"id": "92299039-beb7-4316-b534-0d0cc4e5b66f",
+			"name": "catabus_get_stop_departures_server_script",
+			"description": "Retrieves real-time CATAbus departures for a specific stop and returns simplified arrival data."
+		},
+		{
+			"id": "47ddfce1-00ea-42e9-8648-fc4267e2ba3e",
+			"name": "catabus_field_catalog_script",
+			"description": "Script for Field Catalog in dev-JACK-bus-connector"
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "aeb205bf-dadf-43e3-b3c5-eee46f83265a",
+			"name": "devJACKdxpscripts",
+			"description": "Server Scripts for fetching CATAbus GTFS data and exposing it as a Neptune Connector"
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "6cd10e3e-539b-4a63-acff-47bfbb189e7a",
+			"name": "devJACKbusAdaptiveAPP",
+			"description": "TBD",
+			"application": "neptunedxp_adaptive_tile_table"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "f8cf03ce-2fdf-4426-bc55-43b8e4a82ef2",
+			"description": null,
+			"name": "dev-JACK-browse-routes-tile"
+		},
+		{
+			"id": "f30c266e-ebe7-44f4-a322-58e3ccd58393",
+			"description": null,
+			"name": "dev-JACK-work-stop-tile"
+		},
+		{
+			"id": "f010db42-c454-439a-9e9a-1b93b2881139",
+			"description": null,
+			"name": "dev-JACK-home-stop-tile"
+		},
+		{
+			"id": "85d68f32-005e-4ed3-8095-8809b820274e",
+			"description": null,
+			"name": "dev-JACK-abap-tile"
+		},
+		{
+			"id": "274aac9c-1c65-4c61-b18f-03d7e9e2184e",
+			"description": null,
+			"name": "dev-JACK-vscode-tile"
+		},
+		{
+			"id": "1170d49a-4b48-4b04-b0cc-7c4747a393dc",
+			"description": null,
+			"name": "dev-JACK-next-bus-tile"
+		}
+	],
+	"tile_layout": [],
+	"category": [
+		{
+			"id": "b248da45-ed79-45ad-aaff-6715102ca44a",
+			"description": "TIle Group containing the Bus applications.",
+			"name": "dev-JACK-bus-applications-tile-group"
+		},
+		{
+			"id": "a93ce3a0-1fd1-4064-90e4-8aef2fbe2bdd",
+			"description": "TBD",
+			"name": "dev-JACK-main-applications-tile-group"
+		},
+		{
+			"id": "777f1751-b3fe-40ba-9b76-b27a61846308",
+			"description": "Tile Group containing all of Jack's applications.",
+			"name": "dev-JACK-applications-tile-group "
+		}
+	],
+	"tilegroup_layout": [],
+	"launchpad": [],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "c763f98b-ca01-4864-8d3e-ea6fadef77df",
+			"name": "dev-JACK-bus-connector",
+			"description": "TBD"
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": []
+}

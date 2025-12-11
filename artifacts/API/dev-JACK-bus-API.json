@@ -1,0 +1,58 @@
+{
+	"id": "c3bcc7ea-62a1-4a0a-b8e9-da6c168decd3",
+	"createdAt": "2025-12-11T08:53:10.357Z",
+	"createdBy": "jack",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "9716e31e-f138-48ff-b329-4b14b5a5cf89",
+			"method": "GET",
+			"path": "/stopDepartures",
+			"description": "",
+			"parameters": [
+				{
+					"name": "stopId",
+					"description": "",
+					"required": false,
+					"inPath": false,
+					"value": "",
+					"default": "401",
+					"example": ""
+				}
+			],
+			"headers": [],
+			"responses": [],
+			"content": [],
+			"auth": [],
+			"endpoints": [],
+			"serverScript": "92299039-beb7-4316-b534-0d0cc4e5b66f"
+		}
+	],
+	"definitions": [],
+	"documentation": [],
+	"name": "dev-JACK-bus-API",
+	"endpoint": "/api/serverscript/dev-jack-bus-api",
+	"ver": "25.12.11.1143",
+	"version": null,
+	"description": "TBD",
+	"mediaType": null,
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "script",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "5b82a436-354f-4091-bade-864ef653133f",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

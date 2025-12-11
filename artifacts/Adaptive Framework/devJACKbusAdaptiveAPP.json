@@ -1,0 +1,208 @@
+{
+	"id": "6cd10e3e-539b-4a63-acff-47bfbb189e7a",
+	"createdAt": "2025-12-11T09:14:06.234Z",
+	"createdBy": "jack",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "3",
+				"updateTime": "0",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonRun": "sap-icon://fas/person-running",
+				"textButtonRun": "Button Text",
+				"typeButtonRun": "Emphasized",
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"enableRun": false,
+				"enableCreate": false,
+				"enableDelete": false,
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete ",
+				"title": "",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				}
+			},
+			"form": {
+				"enableCompact": true,
+				"filterExpandable": true,
+				"headerExpanded": false,
+				"showFilter": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"showSeparators": "",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"fixedLayout": true,
+				"inset": false,
+				"enableAutoPopin": false,
+				"initialSortField": "",
+				"initialGroupField": ""
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "routeId",
+				"label": "Route",
+				"type": "Integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "direction",
+				"label": "Direction",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "eta_hm",
+				"label": "ETA",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "countdown",
+				"label": "Countdown (min)",
+				"type": "Integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "trip_InternalSignDesc",
+				"label": "Headsign",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "sdt_hm",
+				"label": "Sched Depart",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "sta_hm",
+				"label": "Sched Arrive",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "isRealtime",
+				"label": "Realtime?",
+				"type": "Boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "StopStatusReportLabel",
+				"label": "Status",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "Dev",
+				"label": "Deviation",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ModeReportLabel",
+				"label": "Mode",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "PropertyName",
+				"label": "Property",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "trip_GtfsTripId",
+				"label": "GTFS Trip",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "trip_StopSequence",
+				"label": "Stop Seq",
+				"type": "Integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "trip_TripDirection",
+				"label": "Trip Direction",
+				"type": "Text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "countdown",
+				"text": "Next Bus (mins)",
+				"popinDisplay": "Inline",
+				"visible": true,
+				"fieldPos": 1,
+				"hAlign": "",
+				"vAlign": "",
+				"minScreenWidth": "",
+				"width": ""
+			},
+			{
+				"name": "sdt_hm",
+				"text": "Sched Depart",
+				"popinDisplay": "Inline",
+				"visible": true,
+				"fieldPos": 2
+			}
+		],
+		"defaultVariant": {
+			"id": "9f48e602-a455-49ab-ba73-e5cf57f520b5",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"textButtonCreate": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": ""
+				},
+				"fieldCatalog": {}
+			}
+		}
+	},
+	"name": "devJACKbusAdaptiveAPP",
+	"description": "TBD",
+	"group": "",
+	"type": "C",
+	"connectorid": "c763f98b-ca01-4864-8d3e-ea6fadef77df",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.12.11.1143",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_tile_table",
+	"package": "5b82a436-354f-4091-bade-864ef653133f",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
