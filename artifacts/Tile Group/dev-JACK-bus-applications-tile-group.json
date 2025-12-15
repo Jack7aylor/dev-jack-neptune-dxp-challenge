@@ -104,25 +104,19 @@
 			"id": "f8cf03ce-2fdf-4426-bc55-43b8e4a82ef2",
 			"name": "dev-JACK-browse-routes-tile",
 			"title": "Browse Routes",
-			"ver": "25.12.11.0728"
+			"ver": "25.12.15.2004"
 		},
 		{
 			"id": "f30c266e-ebe7-44f4-a322-58e3ccd58393",
 			"name": "dev-JACK-work-stop-tile",
 			"title": "Work Stop",
-			"ver": "25.12.11.0727"
+			"ver": "25.12.15.1742"
 		},
 		{
 			"id": "f010db42-c454-439a-9e9a-1b93b2881139",
 			"name": "dev-JACK-home-stop-tile",
 			"title": "Home Stop",
-			"ver": "25.12.11.1106"
-		},
-		{
-			"id": "1170d49a-4b48-4b04-b0cc-7c4747a393dc",
-			"name": "dev-JACK-next-bus-tile",
-			"title": "Next Bus",
-			"ver": "25.12.11.1100"
+			"ver": "25.12.11.2129"
 		}
 	],
 	"tilegroups": [],

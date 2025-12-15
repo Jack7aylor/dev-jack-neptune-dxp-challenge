@@ -5,9 +5,17 @@
 	"globalScripts": [],
 	"externalModules": [],
 	"entitySets": [],
-	"apis": [],
+	"apis": [
+		{
+			"id": "9716e31e-f138-48ff-b329-4b14b5a5cf89",
+			"parent": "c3bcc7ea-62a1-4a0a-b8e9-da6c168decd3",
+			"name": "/stopDepartures",
+			"contextname": "stopDepartures",
+			"method": "GET"
+		}
+	],
 	"name": "catabus_get_stop_departures_server_script",
-	"ver": "25.12.11.1142",
+	"ver": "25.12.11.2121",
 	"description": "Retrieves real-time CATAbus departures for a specific stop and returns simplified arrival data.",
 	"folder": "",
 	"content": "file:///content.js",

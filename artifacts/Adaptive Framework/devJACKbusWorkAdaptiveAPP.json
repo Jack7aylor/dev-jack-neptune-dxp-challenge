@@ -1,0 +1,202 @@
+{
+	"id": "3d8c2e7b-eb5f-4641-9311-24793d7f78e5",
+	"createdAt": "2025-12-11T21:30:20.321Z",
+	"createdBy": "jack",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "3",
+				"updateTime": "0.01",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonRun": "sap-icon://refresh",
+				"textButtonRun": "",
+				"typeButtonRun": "Transparent",
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableDelete": false,
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"titleConfirmDelete": "Delete ",
+				"title": "",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				}
+			},
+			"form": {
+				"enableCompact": true,
+				"filterExpandable": true,
+				"headerExpanded": false,
+				"showFilter": true,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"showSeparators": "",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"fixedLayout": true,
+				"inset": false,
+				"enableAutoPopin": false,
+				"initialSortField": "",
+				"initialGroupField": ""
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "route_color",
+				"label": "Color",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "countdown",
+				"label": "Countdown (min)",
+				"type": "Integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "direction",
+				"label": "Direction",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "eta_hm",
+				"label": "ETA",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "headsign",
+				"label": "Headsign",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "isRealtime",
+				"label": "Realtime?",
+				"type": "Boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "route_short",
+				"label": "Route",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "routeId",
+				"label": "Route ID",
+				"type": "Integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "route_long",
+				"label": "Route Name",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "sta_hm",
+				"label": "Sched Arrive",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "sdt_hm",
+				"label": "Sched Depart",
+				"type": "Text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "stopId",
+				"label": "Stop ID",
+				"type": "Integer",
+				"usage": "INPUT"
+			}
+		],
+		"fieldsSel": [
+			{
+				"name": "stopId",
+				"text": "Stop ID",
+				"visible": true,
+				"fieldPos": 1,
+				"default": "394",
+				"required": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "route_short",
+				"text": "Route",
+				"popinDisplay": "Inline",
+				"visible": true,
+				"fieldPos": 2
+			},
+			{
+				"name": "direction",
+				"text": "Direction",
+				"popinDisplay": "Inline",
+				"visible": true,
+				"fieldPos": 3
+			},
+			{
+				"name": "sdt_hm",
+				"text": "Sched Depart",
+				"popinDisplay": "Inline",
+				"visible": true,
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "9f48e602-a455-49ab-ba73-e5cf57f520b5",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"EN": {
+				"report": {
+					"title": "",
+					"textButtonCreate": "",
+					"textButtonRun": "",
+					"searchLabel": "",
+					"searchPlaceholder": "",
+					"textConfirmDelete": "",
+					"titleConfirmDelete": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": ""
+				},
+				"fieldCatalog": {}
+			}
+		}
+	},
+	"name": "devJACKbusWorkAdaptiveAPP",
+	"description": "TBD",
+	"group": "",
+	"type": "C",
+	"connectorid": "c763f98b-ca01-4864-8d3e-ea6fadef77df",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "25.12.11.2147",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_tile_table",
+	"package": "5b82a436-354f-4091-bade-864ef653133f",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

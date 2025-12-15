@@ -7,7 +7,7 @@
 	"entitySets": [],
 	"apis": [],
 	"name": "catabus_field_catalog_script",
-	"ver": "25.12.11.1142",
+	"ver": "25.12.11.2114",
 	"description": "Script for Field Catalog in dev-JACK-bus-connector",
 	"folder": "",
 	"content": "file:///content.js",

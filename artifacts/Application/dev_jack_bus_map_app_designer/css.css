@@ -1,0 +1,20 @@
+#map {
+    height: calc(95%);
+    width: calc(95%);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+#parentMap {
+    height: 100%;
+    width: 100%
+}
+
+.center-class {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}

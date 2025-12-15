@@ -8,13 +8,20 @@
 	},
 	"name": "dev-jack-neptune-dxp-challenge",
 	"description": "A set of applications for Jack to showcase API integration and UI design in Neptune DXP",
-	"ver": "25.12.11.1139",
+	"ver": "25.12.11.1216",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
 	"excludeTemplateFiles": true,
 	"roles": [],
-	"apps": [],
+	"apps": [
+		{
+			"id": "46d40005-7bb7-434f-b111-41f45ea267e1",
+			"application": "dev_jack_bus_map_app_designer",
+			"title": "",
+			"description": ""
+		}
+	],
 	"api": [
 		{
 			"id": "c3bcc7ea-62a1-4a0a-b8e9-da6c168decd3",
@@ -51,7 +58,13 @@
 	"reports": [
 		{
 			"id": "6cd10e3e-539b-4a63-acff-47bfbb189e7a",
-			"name": "devJACKbusAdaptiveAPP",
+			"name": "devJACKbusHomeAdaptiveAPP",
+			"description": "TBD",
+			"application": "neptunedxp_adaptive_tile_table"
+		},
+		{
+			"id": "3d8c2e7b-eb5f-4641-9311-24793d7f78e5",
+			"name": "devJACKbusWorkAdaptiveAPP",
 			"description": "TBD",
 			"application": "neptunedxp_adaptive_tile_table"
 		}
@@ -83,11 +96,6 @@
 			"id": "274aac9c-1c65-4c61-b18f-03d7e9e2184e",
 			"description": null,
 			"name": "dev-JACK-vscode-tile"
-		},
-		{
-			"id": "1170d49a-4b48-4b04-b0cc-7c4747a393dc",
-			"description": null,
-			"name": "dev-JACK-next-bus-tile"
 		}
 	],
 	"tile_layout": [],
@@ -109,7 +117,13 @@
 		}
 	],
 	"tilegroup_layout": [],
-	"launchpad": [],
+	"launchpad": [
+		{
+			"id": "6d36884a-329b-4073-b906-a0094697f3dc",
+			"name": "dev-JACK-launchpad",
+			"description": "Central entry point for Jack's Neptune Challenge"
+		}
+	],
 	"launchpad_layout": [],
 	"certificates": [],
 	"role": [],
