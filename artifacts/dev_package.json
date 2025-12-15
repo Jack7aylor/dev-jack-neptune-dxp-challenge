@@ -8,7 +8,7 @@
 	},
 	"name": "dev-jack-neptune-dxp-challenge",
 	"description": "A set of applications for Jack to showcase API integration and UI design in Neptune DXP",
-	"ver": "25.12.15.2036",
+	"ver": "25.12.15.2111",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
@@ -75,7 +75,7 @@
 		{
 			"id": "f8cf03ce-2fdf-4426-bc55-43b8e4a82ef2",
 			"description": null,
-			"name": "dev-JACK-browse-routes-tile"
+			"name": "dev-JACK-view-map-tile"
 		},
 		{
 			"id": "f30c266e-ebe7-44f4-a322-58e3ccd58393",

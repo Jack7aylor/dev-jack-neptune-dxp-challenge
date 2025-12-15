@@ -102,9 +102,9 @@
 	"tiles": [
 		{
 			"id": "f8cf03ce-2fdf-4426-bc55-43b8e4a82ef2",
-			"name": "dev-JACK-browse-routes-tile",
-			"title": "Browse Routes",
-			"ver": "25.12.15.2004"
+			"name": "dev-JACK-view-map-tile",
+			"title": "View Map",
+			"ver": "25.12.15.2127"
 		},
 		{
 			"id": "f30c266e-ebe7-44f4-a322-58e3ccd58393",
