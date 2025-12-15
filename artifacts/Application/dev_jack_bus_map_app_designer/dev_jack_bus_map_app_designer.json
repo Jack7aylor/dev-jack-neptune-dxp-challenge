@@ -166,7 +166,7 @@
 								{
 									"attribute": "enableScrolling",
 									"grouping": "Properties",
-									"value": "true",
+									"value": "false",
 									"script": "",
 									"translation": []
 								},
@@ -208,6 +208,13 @@
 											"grouping": "Events",
 											"value": "Mapping.initMap();",
 											"script": "Mapping.initMap();",
+											"translation": []
+										},
+										{
+											"attribute": "busy",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
 											"translation": []
 										}
 									],
@@ -343,7 +350,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "25.12.15.1958",
+	"ver": "25.12.15.2103",
 	"application": "dev_jack_bus_map_app_designer",
 	"title": "",
 	"description": "",

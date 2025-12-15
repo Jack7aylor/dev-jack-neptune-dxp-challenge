@@ -1,3 +1,12 @@
-<div id="parentMap" class="center-class">
-    <div id="map"></div>
+<div id="parentMap">
+  <div id="hud">
+    <div style="display:flex;gap:10px;align-items:center;">
+      <strong>CATA Vehicles</strong>
+      <button id="btnRefresh" type="button">Refresh</button>
+    </div>
+    <div id="status">Waiting…</div>
+    <div id="error"></div>
+  </div>
+
+  <div id="map"></div>
 </div>
